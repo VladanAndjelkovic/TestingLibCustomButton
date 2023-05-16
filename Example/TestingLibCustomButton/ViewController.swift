@@ -7,12 +7,18 @@
 //
 
 import UIKit
+//import TestingLibCustomButton
 
 class ViewController: UIViewController {
 
+
+    @IBOutlet weak var customButton: CustomButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+//        let btn = CustomButton()
+        view.backgroundColor = .blue
     }
 
     override func didReceiveMemoryWarning() {
