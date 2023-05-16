@@ -7,12 +7,12 @@
 //
 
 import UIKit
-//import TestingLibCustomButton
+import TestingLibCustomButton
 
 class ViewController: UIViewController {
 
 
-    @IBOutlet weak var customButton: CustomButton!
+//    @IBOutlet weak var customButton: CustomButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
