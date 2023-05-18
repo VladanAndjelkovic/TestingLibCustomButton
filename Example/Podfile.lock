@@ -1,0 +1,16 @@
+PODS:
+  - TestingLibCustomButton (0.1.0)
+
+DEPENDENCIES:
+  - TestingLibCustomButton (from `../`)
+
+EXTERNAL SOURCES:
+  TestingLibCustomButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestingLibCustomButton: 5419bfcbcebca585bbe04f98b81854b8db89f91d
+
+PODFILE CHECKSUM: d63ae0aa7ebbbb9e5ce688581e863e08eb0fe46f
+
+COCOAPODS: 1.11.3

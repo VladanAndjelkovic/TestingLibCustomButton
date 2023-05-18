@@ -1,0 +1,6 @@
+framework module TestingLibCustomButton {
+  umbrella header "TestingLibCustomButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

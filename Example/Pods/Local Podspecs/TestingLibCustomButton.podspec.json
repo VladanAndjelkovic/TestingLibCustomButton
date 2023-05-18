@@ -1,0 +1,25 @@
+{
+  "name": "TestingLibCustomButton",
+  "version": "0.1.0",
+  "summary": "Proba za custom UI elements library",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/VladanAndjelkovic/TestingLibCustomButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "VladanAndjelkovic": "vladan.andjelkovic@alterset.net"
+  },
+  "source": {
+    "git": "https://github.com/VladanAndjelkovic/TestingLibCustomButton.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TestingLibCustomButton/Classes/**/*",
+  "frameworks": "UIKit",
+  "swift_version": "5.0"
+}
