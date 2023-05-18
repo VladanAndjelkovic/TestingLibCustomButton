@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         
 //        let log = Logger()
 //        log.printLog()
-        let model = ButtonModel( title: "nekiTekstSasvimNaslov", cornerRadius: 16,fontWeight: .light,  fontColor: .red, backgroundColor: .black, action: odstampajNesto)
+        let model = ButtonModel( title: "nekiTekstPrviCustomButton", cornerRadius: 16,fontWeight: .light,  fontColor: .red, backgroundColor: .black, action: odstampajNesto)
         let btnVM = ButtonViewModel(buttonModel: model)
 //        let customButton = CustomButton()
         customButton.configure(with: btnVM)
@@ -35,13 +35,14 @@ class ViewController: UIViewController {
 
         view.addSubview(customButton)
         
-        let cb2 = CustomButton2(title: "nekiTekstSasvimDrugi", fontColor: .white, btnBackgroundColor: .magenta, cornerRadius: 16, superview: view)
+        let cb2 = CustomButton2(title: "nekiTekstDrugiCustomButton", fontColor: .white, btnBackgroundColor: .magenta, cornerRadius: 16, superview: view)
         
         cb2.action22 = {
             print("vladanAndjelkovic evo ga action")
         }
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            cb2.btnBackgroundColor = .green
             cb2.fontColor = .black
         }
     }

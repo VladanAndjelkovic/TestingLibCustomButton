@@ -17,7 +17,7 @@ public class CustomButton2: UIButton {
         }
     }
     
-    var btnBackgroundColor: UIColor = .yellow {
+    public var btnBackgroundColor: UIColor = .yellow {
         didSet {
             self.backgroundColor = btnBackgroundColor
         }
