@@ -7,18 +7,51 @@
 
 import Foundation
 
-class ButtonViewModel {
+public class ButtonViewModel {
     private let buttonModel: ButtonModel
-    
-    init(buttonModel: ButtonModel) {
+
+   public init(buttonModel: ButtonModel) {
         self.buttonModel = buttonModel
     }
-    
+
     var title: String {
-        return buttonModel.title
+        return buttonModel.title ?? ""
     }
     
+    var fontSize: CGFloat {
+        return buttonModel.fontSize
+    }
+    
+    var leftPadding: CGFloat {
+        return buttonModel.leftPadding
+    }
+    
+    var rightPadding: CGFloat {
+        return buttonModel.rightPadding
+    }
+    
+    var height: CGFloat {
+        return buttonModel.height
+    }
+    
+    var fontColor: UIColor {
+        return buttonModel.fontColor 
+    }
+    
+    var backgroundColor: UIColor {
+        return buttonModel.backgroundColor
+    }
+    
+    var cornerRadius: CGFloat {
+        return buttonModel.cornerRadius
+    }
+    
+    var fontWeight: UIFont.Weight {
+        return buttonModel.fontWeight
+    }
+
     func performAction() {
+        print("viewModelButtonPressed")
         buttonModel.action()
     }
 }
