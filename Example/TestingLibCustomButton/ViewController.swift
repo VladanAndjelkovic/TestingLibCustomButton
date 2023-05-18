@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         customButton.frame = CGRect(x: 5, y: 100, width: UIScreen.main.bounds.size.width - 10, height: customButton.height!)
         
 
-//        view.addSubview(customButton)
+        view.addSubview(customButton)
         
         let cb2 = CustomButton2(title: "nekiTekstSasvimDrugi", fontColor: .white, btnBackgroundColor: .magenta, cornerRadius: 16, superview: view)
         
