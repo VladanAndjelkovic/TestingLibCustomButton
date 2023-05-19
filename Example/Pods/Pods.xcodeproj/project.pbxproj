@@ -16,6 +16,7 @@
 		5A75D33FD365AA0DF75742597F3EFC6C /* CustomButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF4E6A4E77BF9B73C9485B97B94623 /* CustomButton2.swift */; };
 		60D4A93F46FE650CFC036E7D213D785D /* Pods-TestingLibCustomButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9E5D535D951B98465A7BE000DA593E /* Pods-TestingLibCustomButton_Example-dummy.m */; };
 		663C2F0B1BE8526B294F1F1D003435E1 /* ButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E24A674B7C9314C6116CECBD20BB6E /* ButtonModel.swift */; };
+		68F678BF2A173E94004A92BB /* UI_bck_color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F678BE2A173E94004A92BB /* UI_bck_color.swift */; };
 		85B698B8AF3FB1EE13D22D78F6CD675A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 		9446B6F648A6B761E0BDC0A76453715D /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D695CE131FB23EDEB405BF00EC3B16 /* ColorModel.swift */; };
 		9A9A061551B30EB72CA347FF6C120879 /* TestingLibCustomButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD41941A2C95163AAC6FF6FB828B4EF /* TestingLibCustomButton-dummy.m */; };
@@ -60,25 +61,26 @@
 		4FBDA50EE221A05BB9FD5BE693573696 /* Pods-TestingLibCustomButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestingLibCustomButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		5489A98F595BA58249304DCE7C4B6576 /* Pods-TestingLibCustomButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestingLibCustomButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		5C416311EFA7C7FC9EC5817B4DB8D11D /* TestingLibCustomButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TestingLibCustomButton-Info.plist"; sourceTree = "<group>"; };
-		64A6C89F4C16372B2229722D9DB19EA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		64A6C89F4C16372B2229722D9DB19EA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		65454DE27300D7940ACF3C060795B6FA /* Pods-TestingLibCustomButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingLibCustomButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6591998B7838740C5C473D4D9C193BDE /* Pods-TestingLibCustomButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingLibCustomButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		68F678BE2A173E94004A92BB /* UI_bck_color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UI_bck_color.swift; path = TestingLibCustomButton/Classes/UI_bck_color.swift; sourceTree = "<group>"; };
 		69A4509E374ECEB42C4C95AE5530AD9B /* Pods-TestingLibCustomButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestingLibCustomButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		85A9F3B3704C5DA93EFA9785BA697065 /* CustomHexColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomHexColor.swift; sourceTree = "<group>"; };
 		8AFF4E6A4E77BF9B73C9485B97B94623 /* CustomButton2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomButton2.swift; sourceTree = "<group>"; };
 		8EA219F801D6F1495AA191244C46F1D6 /* Pods-TestingLibCustomButton_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestingLibCustomButton_Example"; path = Pods_TestingLibCustomButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		956125484E2FB924AE7A68392BD6AB85 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		956125484E2FB924AE7A68392BD6AB85 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		979E249EC0F052CB297E5D2E61FEAFAA /* Pods-TestingLibCustomButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingLibCustomButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		99ED7C4856BC5D6BBC1528D0A6FE490C /* TestingLibCustomButton */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestingLibCustomButton; path = TestingLibCustomButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8AA152F23E835E5DFC0C1379CB0689 /* CustomButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD0B5AA13C15D5E6DD357F25300641E9 /* Pods-TestingLibCustomButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestingLibCustomButton_Tests.modulemap"; sourceTree = "<group>"; };
 		B19E08169C369A2F089A993F877054E3 /* Pods-TestingLibCustomButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingLibCustomButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B48745DD1940002690200D972F940474 /* TestingLibCustomButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestingLibCustomButton-umbrella.h"; sourceTree = "<group>"; };
 		B616BA816FAFC592EB343B0BCAA74CD6 /* Pods-TestingLibCustomButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestingLibCustomButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B885D3996E9AFDA45DFA6A00C359AB3A /* TestingLibCustomButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestingLibCustomButton.modulemap; sourceTree = "<group>"; };
 		C8A85A28F439158ED198548CED4E59D7 /* TestingLibCustomButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestingLibCustomButton.debug.xcconfig; sourceTree = "<group>"; };
-		CB173304B1E2F69474539F98E9262243 /* TestingLibCustomButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestingLibCustomButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB173304B1E2F69474539F98E9262243 /* TestingLibCustomButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TestingLibCustomButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CF684A835C363EA1B11065AB9B11A069 /* Pods-TestingLibCustomButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingLibCustomButton_Example-Info.plist"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D38A7AB3DED999AF3399F09B86B21634 /* ButtonViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ButtonViewModel.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				0A1B5A37CD7A86BCA5A14CD0711AAA54 /* Logger.swift */,
+				68F678BE2A173E94004A92BB /* UI_bck_color.swift */,
 				677B5D1EEED7538F29D14CDC55670794 /* CustomButton2 */,
 				66F5B68DD986836281C51347ED9750F2 /* Models */,
 				C4534208422C9291BA1FE1727251D69B /* Pod */,
@@ -259,7 +262,6 @@
 			children = (
 				1B410665BDE5790D954C97EFF993B2CA /* ColorViewModel.swift */,
 			);
-			name = ViewModel;
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
@@ -268,7 +270,6 @@
 			children = (
 				85A9F3B3704C5DA93EFA9785BA697065 /* CustomHexColor.swift */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -305,7 +306,6 @@
 			children = (
 				45D695CE131FB23EDEB405BF00EC3B16 /* ColorModel.swift */,
 			);
-			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
@@ -486,6 +486,7 @@
 				4433DB1005BD56E98561F64FE14A7288 /* ColorViewModel.swift in Sources */,
 				0F4CC88451C58ECE8E8D95DF343B4021 /* CustomButton.swift in Sources */,
 				5A75D33FD365AA0DF75742597F3EFC6C /* CustomButton2.swift in Sources */,
+				68F678BF2A173E94004A92BB /* UI_bck_color.swift in Sources */,
 				D66E76F7A0D8CC548A084DEDC491A078 /* CustomHexColor.swift in Sources */,
 				0A53766237B04AA7D98DB6BEEEBA0C83 /* Logger.swift in Sources */,
 				9A9A061551B30EB72CA347FF6C120879 /* TestingLibCustomButton-dummy.m in Sources */,
@@ -663,8 +664,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

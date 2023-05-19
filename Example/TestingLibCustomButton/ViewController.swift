@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     var customButton = CustomButton()
 //    var customButton = CustomButtonView.sel
     var customBcgrColor = CustomHexColor()
+    var bckgrColor = UI_bck_color()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +27,7 @@ class ViewController: UIViewController {
         
 //        let log = Logger()
 //        log.printLog()
-        let model = ButtonModel( title: "nekiTekstPrviCustomButton", cornerRadius: 16,fontWeight: .light,  fontColor: .red, backgroundColor: .black, action: odstampajNesto)
+        let model = ButtonModel( title: "UI_reusable_customButton", cornerRadius: 16,fontWeight: .light,  fontColor: .red, backgroundColor: .black, action: odstampajNesto)
         let btnVM = ButtonViewModel(buttonModel: model)
 //        let customButton = CustomButton()
         customButton.configure(with: btnVM)
@@ -35,20 +36,22 @@ class ViewController: UIViewController {
 
         view.addSubview(customButton)
         
-        let cb2 = CustomButton2(title: "nekiTekstDrugiCustomButton", fontColor: .white, btnBackgroundColor: .magenta, cornerRadius: 16, superview: view)
+        let cb2 = CustomButton2(title: "UI_reusable_customButton2", fontColor: .white, btnBackgroundColor: .magenta, cornerRadius: 16, superview: view)
         
         cb2.action22 = {
-            print("vladanAndjelkovic evo ga action")
+            print("vladanAndjelkovic actionCustomButton2")
         }
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [self] in
             cb2.btnBackgroundColor = .green
             cb2.fontColor = .black
+            
+            self.view.backgroundColor = bckgrColor.ui_bck_color(bck_color: "#BCBCBC")
         }
     }
     
    @objc func odstampajNesto() {
-        print("appCustomButtonPresed")
+        print("vladanAndjelkovic actionCustomButton")
     }
 
     override func didReceiveMemoryWarning() {
