@@ -35,12 +35,12 @@ class ViewController: UIViewController {
             print("vladanAndjelkovic actionCustomButton2")
         }
         
-//        DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [self] in
-//            cb2.btnBackgroundColor = .green
-//            cb2.fontColor = .black
-//            
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [self] in
+            cb2.btnBackgroundColor = .green
+            cb2.fontColor = .black
+ 
             self.view.backgroundColor = UI_bck_color().ui_bck_color(bck_color: "#BCBCBC")
-//        }
+        }
     }
     
    @objc func odstampajNesto() {
