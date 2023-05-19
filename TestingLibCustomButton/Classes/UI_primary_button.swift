@@ -1,5 +1,5 @@
 //
-//  CustomButton2.swift
+//  UI_primary_button.swift
 //  TestingLibCustomButton
 //
 //  Created by Vladan  Andjelkovic on 18.5.23..
@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class CustomButton2: UIButton {
+public class UI_primary_button: UIButton {
     
     public var action22: (() -> Void)?
 
@@ -25,7 +25,6 @@ public class CustomButton2: UIButton {
     
     var cornerRadius: CGFloat = 16 {
         didSet {
-//            self.cornerRadius = cornerRadius
             self.layer.cornerRadius = cornerRadius
         }
     }

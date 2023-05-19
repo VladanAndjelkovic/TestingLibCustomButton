@@ -8,15 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		060B1AF6008755ABF7393BDD7453401A /* Pods-TestingLibCustomButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5489A98F595BA58249304DCE7C4B6576 /* Pods-TestingLibCustomButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A53766237B04AA7D98DB6BEEEBA0C83 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B5A37CD7A86BCA5A14CD0711AAA54 /* Logger.swift */; };
 		0F4CC88451C58ECE8E8D95DF343B4021 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8AA152F23E835E5DFC0C1379CB0689 /* CustomButton.swift */; };
 		144E6ADD770A46C4B94A4D3FDD2CBC98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		1D6DD504794A7D402551B43496C66151 /* ButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38A7AB3DED999AF3399F09B86B21634 /* ButtonViewModel.swift */; };
 		4433DB1005BD56E98561F64FE14A7288 /* ColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B410665BDE5790D954C97EFF993B2CA /* ColorViewModel.swift */; };
-		5A75D33FD365AA0DF75742597F3EFC6C /* CustomButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF4E6A4E77BF9B73C9485B97B94623 /* CustomButton2.swift */; };
 		60D4A93F46FE650CFC036E7D213D785D /* Pods-TestingLibCustomButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9E5D535D951B98465A7BE000DA593E /* Pods-TestingLibCustomButton_Example-dummy.m */; };
 		663C2F0B1BE8526B294F1F1D003435E1 /* ButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E24A674B7C9314C6116CECBD20BB6E /* ButtonModel.swift */; };
 		68F678BF2A173E94004A92BB /* UI_bck_color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F678BE2A173E94004A92BB /* UI_bck_color.swift */; };
+		68F678C32A174CF7004A92BB /* UI_primary_button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F678C22A174CF7004A92BB /* UI_primary_button.swift */; };
 		85B698B8AF3FB1EE13D22D78F6CD675A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 		9446B6F648A6B761E0BDC0A76453715D /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D695CE131FB23EDEB405BF00EC3B16 /* ColorModel.swift */; };
 		9A9A061551B30EB72CA347FF6C120879 /* TestingLibCustomButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD41941A2C95163AAC6FF6FB828B4EF /* TestingLibCustomButton-dummy.m */; };
@@ -47,7 +46,6 @@
 
 /* Begin PBXFileReference section */
 		0685C8AF7F719BBDB35D4EBED636C8E1 /* Pods-TestingLibCustomButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingLibCustomButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0A1B5A37CD7A86BCA5A14CD0711AAA54 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = TestingLibCustomButton/Classes/Logger.swift; sourceTree = "<group>"; };
 		1B410665BDE5790D954C97EFF993B2CA /* ColorViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorViewModel.swift; sourceTree = "<group>"; };
 		1BCD1CDA55FA41A6E8C428AF0A116964 /* Pods-TestingLibCustomButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestingLibCustomButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2E9E5D535D951B98465A7BE000DA593E /* Pods-TestingLibCustomButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestingLibCustomButton_Example-dummy.m"; sourceTree = "<group>"; };
@@ -65,9 +63,9 @@
 		65454DE27300D7940ACF3C060795B6FA /* Pods-TestingLibCustomButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingLibCustomButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6591998B7838740C5C473D4D9C193BDE /* Pods-TestingLibCustomButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingLibCustomButton_Tests-Info.plist"; sourceTree = "<group>"; };
 		68F678BE2A173E94004A92BB /* UI_bck_color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UI_bck_color.swift; path = TestingLibCustomButton/Classes/UI_bck_color.swift; sourceTree = "<group>"; };
+		68F678C22A174CF7004A92BB /* UI_primary_button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UI_primary_button.swift; path = TestingLibCustomButton/Classes/UI_primary_button.swift; sourceTree = "<group>"; };
 		69A4509E374ECEB42C4C95AE5530AD9B /* Pods-TestingLibCustomButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestingLibCustomButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		85A9F3B3704C5DA93EFA9785BA697065 /* CustomHexColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomHexColor.swift; sourceTree = "<group>"; };
-		8AFF4E6A4E77BF9B73C9485B97B94623 /* CustomButton2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomButton2.swift; sourceTree = "<group>"; };
 		8EA219F801D6F1495AA191244C46F1D6 /* Pods-TestingLibCustomButton_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestingLibCustomButton_Example"; path = Pods_TestingLibCustomButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		956125484E2FB924AE7A68392BD6AB85 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		979E249EC0F052CB297E5D2E61FEAFAA /* Pods-TestingLibCustomButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingLibCustomButton_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,9 +167,8 @@
 		4DC3C9FD55919834F4223DF49B308E4A /* TestingLibCustomButton */ = {
 			isa = PBXGroup;
 			children = (
-				0A1B5A37CD7A86BCA5A14CD0711AAA54 /* Logger.swift */,
+				68F678C22A174CF7004A92BB /* UI_primary_button.swift */,
 				68F678BE2A173E94004A92BB /* UI_bck_color.swift */,
-				677B5D1EEED7538F29D14CDC55670794 /* CustomButton2 */,
 				66F5B68DD986836281C51347ED9750F2 /* Models */,
 				C4534208422C9291BA1FE1727251D69B /* Pod */,
 				3209AFB106D299EB1E16CC21223A465D /* Support Files */,
@@ -199,15 +196,6 @@
 			);
 			name = Models;
 			path = TestingLibCustomButton/Classes/Models;
-			sourceTree = "<group>";
-		};
-		677B5D1EEED7538F29D14CDC55670794 /* CustomButton2 */ = {
-			isa = PBXGroup;
-			children = (
-				8AFF4E6A4E77BF9B73C9485B97B94623 /* CustomButton2.swift */,
-			);
-			name = CustomButton2;
-			path = TestingLibCustomButton/Classes/CustomButton2;
 			sourceTree = "<group>";
 		};
 		81834A6D3139EED1CE75408E82D90D4C /* Targets Support Files */ = {
@@ -485,10 +473,9 @@
 				9446B6F648A6B761E0BDC0A76453715D /* ColorModel.swift in Sources */,
 				4433DB1005BD56E98561F64FE14A7288 /* ColorViewModel.swift in Sources */,
 				0F4CC88451C58ECE8E8D95DF343B4021 /* CustomButton.swift in Sources */,
-				5A75D33FD365AA0DF75742597F3EFC6C /* CustomButton2.swift in Sources */,
 				68F678BF2A173E94004A92BB /* UI_bck_color.swift in Sources */,
+				68F678C32A174CF7004A92BB /* UI_primary_button.swift in Sources */,
 				D66E76F7A0D8CC548A084DEDC491A078 /* CustomHexColor.swift in Sources */,
-				0A53766237B04AA7D98DB6BEEEBA0C83 /* Logger.swift in Sources */,
 				9A9A061551B30EB72CA347FF6C120879 /* TestingLibCustomButton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

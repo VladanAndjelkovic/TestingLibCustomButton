@@ -15,74 +15,7 @@ public class UI_bck_color {
     public func ui_bck_color(bck_color: String) -> UIColor {
         convertHexToColor(hex: bck_color, alpha: 1.0) ?? convertHexToColor(hex: "#f8f8f8", alpha: 1.0)!
     }
-    
-//    var ui_bck_color: UIColor {
-//        return convertHexToColor(hex: hex, alpha: 1.0) ?? convertHexToColor(hex: "#f8f8f8", alpha: 1.0)!
-//    }
-    
-//    public init(bck_color: String,
-//                            superview: UIView) {
-//        superview.backgroundColor = ui_bck_color
-//    }
-    
-    
-//    public var btnBackgroundColor: UIColor = .yellow {
-//        didSet {
-//            self.backgroundColor = btnBackgroundColor
-//        }
-//    }
-    
-//    var UI_bck_color: UIColor {
-//        return convertHexToColor(hex: hex, alpha: 1.0) ?? convertHexToColor(hex: "#f8f8f8", alpha: 1.0)!
-//    }
-    
-//    public convenience init (bck_color: String) {
-//        self.init(frame: .zero)
-        
-//        self.backgroundColor = convertHexToColor(hex: bck_color, alpha: 1.0) ?? convertHexToColor(hex: "#f8f8f8", alpha: 1.0)!
-//    }
-    
-//    public override init(frame: CGRect) {
-//          super.init(frame: frame)
-//          self.fontColor = .clear
-//  
-//      }
-  
-//      public required init?(coder: NSCoder) {
-//          fatalError("init(coder:) has not been implemented")
-//      }
-    
-//    var ui_bck_color: UIColor {
-//        return convertHexToColor(hex: colorModel.hex, alpha: 1.0) ?? convertHexToColor(hex: "#f8f8f8", alpha: 1.0)!
-//    }
-    
 
-//    public var ui_BackgroundColor: UIColor = .yellow {
-//        didSet {
-//            self.backgroundColor = ui_BackgroundColor
-//        }
-//    }
-//    
-//        public init(hex: String) {
-//            self.hex = hex
-//        }
-//    
-//    public convenience init (bck_color: UIColor) {
-////        self.init(frame: .zero)
-//        self.backgroundColor = bck_color
-//    }
-
-    
-//    public override init(frame: CGRect) {
-////        self.fontColor = .clear
-//        super.init(frame: frame)
-//        self.fontColor = .clear
-//
-//    }
-//
-//    public required init?(coder: NSCoder) {
-//        fatalError("init(coder:) has not been implemented")
-//    }
     
     //Pretvara HEX String u UIColor
     public  func convertHexToColor(hex:String, alpha: CGFloat?) -> UIColor? {

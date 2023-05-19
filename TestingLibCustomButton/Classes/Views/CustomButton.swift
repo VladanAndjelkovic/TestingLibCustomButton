@@ -19,6 +19,9 @@ public class CustomButton: UIButton {
         self.backgroundColor = viewModel.backgroundColor
         self.layer.cornerRadius = viewModel.cornerRadius
         self.titleLabel?.font = UIFont(name: "Arial", size: viewModel.fontSize)
+        //dodati ikonu UIButton-u i napraviti padding
+//        self.setImage(UIImage(named:"dashboard_help_icon"), for: .normal)
+
         self.contentEdgeInsets = UIEdgeInsets(top: 0, left: viewModel.leftPadding, bottom: 0, right: viewModel.rightPadding)
         height = viewModel.height
         self.titleLabel?.font = .systemFont(ofSize: viewModel.fontSize, weight: viewModel.fontWeight)
